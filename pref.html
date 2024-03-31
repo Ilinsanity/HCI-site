@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HCI Test</title>
+    <script
+      src="https://kit.fontawesome.com/8c28386c26.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <div>
+      <div class="top">
+        <div class="rel">
+          <i class="fas fa-broadcast-tower"></i>
+          <div class="centdiv">
+            <input type="checkbox" for="comms" checked="checked" />
+            <label for="comms">Emails</label>
+            <br />
+            <input type="checkbox" for="comms" />
+            <label for="comms">Newsletter</label>
+            <br />
+          </div>
+        </div>
+        <div class="rel">
+          <i class="fas fa-truck"></i>
+          <div class="centdiv">
+            <input type="radio" name="shipping" id="pickup" checked="checked" />
+            <label for="shipping">Pick Up</label>
+            <br />
+            <input type="radio" name="shipping" id="dropoff" />
+            <label for="shipping">Drop Off</label>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="rel">
+          <i class="fas fa-moon"></i>
+          <div class="centdiv">
+            <input type="radio" name="themes" checked="checked" />
+            <label for="themes">Light mode</label>
+            <br />
+            <input type="radio" name="themes" id="dropoff" />
+            <label for="themes">Dark Mode</label>
+          </div>
+        </div>
+        <div class="rel">
+          <i class="fas fa-desktop"></i>
+          <select name="notifs" id="notifs">
+            <option>On</option>
+            <option>Off</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

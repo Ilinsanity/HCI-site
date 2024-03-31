@@ -1,0 +1,53 @@
+i {
+  font-size: 8rem;
+  padding: 4rem;
+  background-color: #d9d9d9;
+  margin: 3rem;
+  border-radius: 50px;
+}
+
+.custom-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit the color from parent */
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rel {
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+select {
+  position: absolute;
+  bottom: 0px;
+}
+
+.centdiv {
+  position: absolute;
+  bottom: -10px;
+}
+
+.centdiv1 {
+  position: absolute;
+  bottom: -100px;
+}
